@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icons8-pokéball-16 (1).png">
+    <script src="./db.js"></script>
+    <script src="./script.js"></script>
+    <script src="./templates.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/standard.css">
+    <link rel="stylesheet" href="/color.css">
+    <link rel="stylesheet" href="/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Pokédex</title>
+</head>
+
+<body onload="init()">
+
+    <header>
+        <div class="header__div">
+            <div class="header__left">
+                <h1>Pokédex</h1>
+                <img class="pokeball__header" src="./img/icons8-pokéball-material-filled-96.png" alt="Pokeball">
+            </div>
+            <input id="searchBar" type="text">
+        </div>
+    </header>
+
+    <main>
+
+        <div id="pokemonCardContainer">
+            <div id="loaderStart" class="loader"></div>
+        </div>
+        <div id="pokemonDetailContainer"></div>
+        <img class="loading__button" src="./img/icons8-plus-64.png" alt="Load more" onclick="loadMorePokemon()">
+
+        <!-- <div id="loadingScreenContainer" class="d-none">
+            <div class="loader"></div>
+        </div> -->
+        
+
+    </main>
+
+
+</body>
+
+</html>

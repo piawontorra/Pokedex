@@ -1,0 +1,264 @@
+header {
+    height: 144px;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.header__div {
+    display: flex;
+    align-items: center;
+    max-width: 1920px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+body {
+    margin: 0;
+    
+}
+
+main {
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#pokemonCardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin-top: 36px;
+    padding-left: 80px;
+    padding-right: 80px;
+    max-width: 1920px;
+}
+
+h1 {
+    color: white;
+}
+
+#searchBar {
+    height: 20px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.pokemon__container {
+    display: flex;
+    gap: 16px;
+    color: white;
+    width: 200px;
+    height: 300px;
+    flex-direction: column;
+    background-color: rgb(56, 56, 56);
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: all ease-in-out 125ms;
+
+
+}
+
+.pokemon__container:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(0.96);
+    transition: all ease-in-out 125ms;
+}
+
+.preview__img {
+    height: 150px;
+    aspect-ratio: 1 /1;
+}
+
+.pokemon__title {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon__type__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.container__types {
+    display: flex;
+    flex-direction: column;
+}
+
+/*#pokemonDetailContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}*/
+
+.overlay__bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+.pokemon__overlay__content {
+    height: 650px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: rgb(56, 56, 56);
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    z-index: 110;
+    color: white;
+}
+
+.pokemon__overlay__img {
+    height: 250px;
+    aspect-ratio: 1 /1;
+    padding-top: 64px;
+
+}
+
+#closePokemonOverlayButton {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    height: 40px;
+}
+
+#closePokemonOverlayButton:hover {
+    cursor: pointer;
+}
+
+.container__table {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#previous__img__button {
+    position: absolute;
+    height: 40px;
+    bottom: 12px;
+    left: 12px;
+}
+
+#next__img__button {
+    height: 40px;
+    position: absolute;
+    height: 40px;
+    bottom: 12px;
+    right: 12px;
+}
+
+#previous__img__button:hover {
+    cursor: pointer;
+}
+
+#next__img__button:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.loader {
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    border-top: 8px solid rgb(24, 24, 24);
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 1s linear infinite;
+    /* Safari */
+    animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading__button {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.loading__button:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(0.96);
+    transition: all ease-in-out 125ms;
+}
+
+.header__left {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.pokeball__header {
+    height: 56px;
+
+}
+
+#loadingScreenContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+}

@@ -1,0 +1,216 @@
+.grass {
+    background: linear-gradient(#72b59c, #089a2d);
+    border-radius: 8px;
+    /** background-color: #68a890; */
+}
+
+.fire {
+    background: linear-gradient(#f4563a, #b41010);
+    border-radius: 8px;
+    /** background-color: #f4563a; */
+}
+
+.water {
+    background: linear-gradient(#4291c6, #0a55b0);
+    border-radius: 8px;
+    /** background-color: #4291c6; */
+}
+
+.normal {
+    background: linear-gradient(#bdb8b6, #878b91);
+    border-radius: 8px;
+    /**  background-color: #bdb8b6;*/
+}
+
+.electric {
+    background: linear-gradient(#ffcc33, #bc9e30);
+    border-radius: 8px;
+    /**background-color: #ffcc33;*/
+}
+
+.psychic {
+    background: linear-gradient(#f062b5, #a423a2);
+    border-radius: 8px;
+    /** background-color: #f062b5;*/
+}
+
+.fighting {
+    background: linear-gradient(#b9591d, #7a5214);
+    border-radius: 8px;
+    /* background-color: #b9591d;*/
+}
+
+.rock {
+    background: linear-gradient(#ad9424, #926f3b);
+    border-radius: 8px;
+    /*background-color: #ad9424;*/
+}
+
+.ground {
+    background: linear-gradient(#ddbb55, #b58a49);
+    border-radius: 8px;
+    /*background-color: #ddbb55;*/
+}
+
+.flying {
+    background: linear-gradient(#33c3ea, #4c70cb);
+    border-radius: 8px;
+    /*background-color: #33c3ea;*/
+}
+
+.bug {
+    background: linear-gradient(#5f8337, #126430);
+    border-radius: 8px;
+    /*background-color: #709942;*/
+}
+
+.poison {
+    background: linear-gradient(#af6ac2, #8b1582);
+    border-radius: 8px;
+    /*background-color: #af6ac2;*/
+}
+
+.ghost {
+    background: linear-gradient(#755d9a, #611f5c);
+    border-radius: 8px;
+    /* background-color: #755d9a;*/
+}
+
+.ice {
+    background: linear-gradient(#4bbee1, #4a81b7);
+    border-radius: 8px;
+    /*background-color: #4bbee1;*/
+
+}
+
+.dragon {
+    background: linear-gradient(#6503e5, #3d11ce);
+    border-radius: 8px;
+    /*background-color: #6503e5;*/
+}
+
+.fairy {
+    background: linear-gradient(#f5b2e1, #d545d7);
+    border-radius: 8px;
+    /*background-color: #f5b2e1;*/
+}
+
+.steel {
+    background: linear-gradient(#aaaabb, #9d9d9d);
+    border-radius: 8px;
+}
+
+.dark {
+    background: linear-gradient(#2e2e30, #666161);
+    border-radius: 8px;
+}
+
+
+/*############## *Settings for the preview card ###############*/
+
+.grassPreview:hover {
+    background: linear-gradient(#72b59c, #089a2d);
+    border-radius: 8px;
+    /** background-color: #68a890; */
+}
+
+.firePreview:hover {
+    background: linear-gradient(#f4563a, #b41010);
+    border-radius: 8px;
+    /** background-color: #f4563a; */
+}
+
+.waterPreview:hover {
+    background: linear-gradient(#4291c6, #0a55b0);
+    border-radius: 8px;
+    /** background-color: #4291c6; */
+}
+
+.normalPreview:hover {
+    background: linear-gradient(#bdb8b6, #878b91);
+    border-radius: 8px;
+    /**  background-color: #bdb8b6;*/
+}
+
+.electricPreview:hover {
+    background: linear-gradient(#ffcc33, #bc9e30);
+    border-radius: 8px;
+    /**background-color: #ffcc33;*/
+}
+
+.psychicPreview:hover {
+    background: linear-gradient(#f062b5, #a423a2);
+    border-radius: 8px;
+    /** background-color: #f062b5;*/
+}
+
+.fightingPreview:hover {
+    background: linear-gradient(#b9591d, #7a5214);
+    border-radius: 8px;
+    /* background-color: #b9591d;*/
+}
+
+.rockPreview:hover {
+    background: linear-gradient(#ad9424, #926f3b);
+    border-radius: 8px;
+    /*background-color: #ad9424;*/
+}
+
+.groundPreview:hover {
+    background: linear-gradient(#ddbb55, #b58a49);
+    border-radius: 8px;
+    /*background-color: #ddbb55;*/
+}
+
+.flyingPreview:hover {
+    background: linear-gradient(#33c3ea, #4c70cb);
+    border-radius: 8px;
+    /*background-color: #33c3ea;*/
+}
+
+.bugPreview:hover {
+    background: linear-gradient(#5f8337, #126430);
+    border-radius: 8px;
+    /*background-color: #709942;*/
+}
+
+.poisonPreview:hover {
+    background: linear-gradient(#af6ac2, #8b1582);
+    border-radius: 8px;
+    /*background-color: #af6ac2;*/
+}
+
+.ghostPreview:hover {
+    background: linear-gradient(#755d9a, #611f5c);
+    border-radius: 8px;
+    /* background-color: #755d9a;*/
+}
+
+.icePreview:hover {
+    background: linear-gradient(#4bbee1, #4a81b7);
+    border-radius: 8px;
+    /*background-color: #4bbee1;*/
+
+}
+
+.dragonPreview:hover {
+    background: linear-gradient(#6503e5, #3d11ce);
+    border-radius: 8px;
+    /*background-color: #6503e5;*/
+}
+
+.fairyPreview:hover {
+    background: linear-gradient(#f5b2e1, #d545d7);
+    border-radius: 8px;
+    /*background-color: #f5b2e1;*/
+}
+
+.steelPreview:hover {
+    background: linear-gradient(#aaaabb, #9d9d9d);
+    border-radius: 8px;
+}
+
+.darkPreview:hover {
+    background: linear-gradient(#2e2e30, #666161);
+    border-radius: 8px;
+}

@@ -1,0 +1,65 @@
+@media (max-width: 635px) {
+    .header__div {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .pokeball__header {
+        height: 48px;
+    }
+
+    #pokemonCardContainer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .pokemon__overlay__img {
+        height: 190px;
+    }
+
+    .pokemon__overlay__content {
+        width: 450px;
+        height: 580px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 520px) {
+    .table__param {
+        padding-right: 45px;
+    }
+
+    .pokemon__overlay__content {
+        width: 265px;
+        height: 440px;
+    }
+
+    h2 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        
+    }
+
+    table {
+        border-spacing: 1px;
+    }
+
+    td {
+        font-size: 13px;
+    }
+
+    .pokemon__overlay__img {
+        height: 150px;
+    }
+
+    .header__div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

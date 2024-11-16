@@ -1,0 +1,26 @@
+body {
+    font-family: "Open Sans", serif;
+      
+}
+
+h3 {
+    color: white;
+}
+
+.d-none {
+    display: none;
+}
+
+table {
+    border-spacing: 6px;
+}
+
+.table__param {
+    padding-right: 200px;
+    font-weight: bold;
+}
+
+h4 {
+    margin: 0;
+    font-size: 14px;
+}
