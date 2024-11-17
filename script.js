@@ -59,13 +59,17 @@ function getPokemonStats(currentPokemon, stats) { //helpfunction for collectPoke
 //create own JSON-array using the data we got from collectPokemonDetails()
 function createPokemonDetailJSON(id, name, sprite, types, stats, height, weight) {
     let nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1);
+    let secondType = types[1];
+    if (!secondType) {
+        secondType = '';
+    }
     pokemonDetailJSONs.push({
         'id': id,
         'name': nameCapitalized,
         'sprite': sprite,
         'types': {
             'first-type': types[0],
-            'second-type': types[1],
+            'second-type': secondType,
         },
         'stats': {
             'hp': stats[0],
@@ -79,6 +83,7 @@ function createPokemonDetailJSON(id, name, sprite, types, stats, height, weight)
         'weight': weight,
     })
 }
+
 
 async function renderPokemon() {
     let contentRef = document.getElementById('pokemonCardContainer');
