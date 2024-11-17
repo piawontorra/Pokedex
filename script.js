@@ -192,4 +192,17 @@ function allPokemonLoaded() {
 
 // }
 
+function filterAndShowPokemonByName(filterword) {
+    document.getElementById('searchBar').addEventListener("input", function() {
+    let filterword = document.getElementById('searchBar').value;
+    currentPokemon.filter(pokemonDetailJSONs['name']).includes(filterword);
+    if (filterword.length < 3) {
+        return [];
+    }
+    else {
+        renderPokemon();
+    }});
+}
+
+
 
